@@ -5,3 +5,4 @@ seaborn
 geopy
 scikit-learn
 xgboost
+streamlit
