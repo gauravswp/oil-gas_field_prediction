@@ -155,8 +155,8 @@ df_result["Onshore/Offshore"] = df_result["Onshore/Offshore"].replace({0: "OFFSH
 # df_result.to_csv("subm.csv")
 
 # Save the trained XGBoost model to a pickle file
-with open("model.pkl", "wb") as file:
-    pickle.dump(xgb_clf, file)
+# with open("model.pkl", "wb") as file:
+#     pickle.dump(xgb_clf, file)
 
 # # Save the StandardScaler as well
 # with open("scaler.pkl", "wb") as scaler_file:
